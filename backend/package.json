@@ -1,0 +1,19 @@
+{
+  "name": "signstack-sample-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Node.js backend that mints SignStack embed tokens for the vanilla HTML sample.",
+  "main": "src/server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
